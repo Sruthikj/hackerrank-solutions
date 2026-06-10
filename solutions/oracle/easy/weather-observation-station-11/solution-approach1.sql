@@ -1,0 +1,21 @@
+-- ──────────────────────────────────────────────────
+-- Problem     Weather Observation Station 11
+-- Difficulty  Easy
+-- Subdomain   Basic Select
+-- Platform    HackerRank
+-- Language    oracle
+-- Status      Accepted
+-- Submitted   2026-06-11, 01:25 a.m.
+-- ──────────────────────────────────────────────────
+
+
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY NOT LIKE 'A%a' AND CITY NOT LIKE 'A%e' AND CITY NOT LIKE 'A%i' AND CITY NOT LIKE 'A%o' AND CITY NOT LIKE 'A%u' AND CITY NOT LIKE 'E%a' AND CITY NOT LIKE 'E%e' AND CITY NOT LIKE 'E%i' AND CITY NOT LIKE 'E%o' AND CITY NOT LIKE 'E%u' AND CITY NOT LIKE 'I%a' AND CITY NOT LIKE 'I%e' AND CITY NOT LIKE 'I%i' AND CITY NOT LIKE 'I%o' AND CITY NOT LIKE 'I%u' AND CITY NOT LIKE 'O%a' AND CITY NOT LIKE 'O%e'  AND CITY NOT LIKE 'O%i'  AND CITY NOT LIKE 'O%o'  AND CITY NOT LIKE 'O%u' AND CITY NOT LIKE 'U%a' AND CITY NOT LIKE 'U%e' AND CITY NOT LIKE 'U%i' AND CITY NOT LIKE 'U%o' AND CITY NOT LIKE 'U%u';
+ 
+/*
+Enter your query here.
+Please append a semicolon ";" at the end of the query and enter your query in a single line to avoid error.
+*/
+
